@@ -16,7 +16,7 @@
 	import { min, max } from 'd3-array';
 
 	import { scaleQuantile, scaleSequential, scaleSequentialQuantile } from 'd3-scale';
-	import { schemeBlues } from 'd3-scale-chromatic';
+	import { schemeBlues, schemePuBu, schemeGnBu, schemeOrRd } from 'd3-scale-chromatic';
 
 	import { formatInt } from '$lib/utils/formatNumbers';
 
@@ -53,6 +53,7 @@
 	const projection = geoIdentity().reflectY(true);
 	const path = geoPath().projection(projection);
 	let colorScale = scaleQuantile();
+	let colorScheme;
 	let clusters;
 
 	$: if (config.datasetType == 'values') {
@@ -63,8 +64,18 @@
 		};
 	}
 
+	$: if (config.colourScheme == 'blue') {
+		colorScheme = schemeBlues[5];
+	} else if (config.colourScheme == 'purple-blue') {
+		colorScheme = schemePuBu[5];
+	} else if (config.colourScheme == 'green-blue') {
+		colorScheme = schemeGnBu[5];
+	} else if (config.colourScheme == 'orange-red') {
+		colorScheme = schemeOrRd[5];
+	}
+
 	$: if ($dataReady) {
-		console.log('Country data for map loaded');
+		// console.log('Country data for map loaded');
 		projection.fitExtent(
 			[
 				[paddingMap, paddingMap],
@@ -101,7 +112,7 @@
 				csvData.set(data);
 
 				// Set color scale domain and range
-				colorScale.domain(extent(extentArray)).range(schemeBlues[5]);
+				colorScale.domain(extent(extentArray)).range(colorScheme);
 				clusters = colorScale.quantiles();
 				scaleMin = min(extentArray);
 				scaleMax = max(extentArray);
@@ -242,7 +253,7 @@
 {#if $dataReady}
 	<div id="map" class="relative" on:mousemove={handleMouseMove} bind:clientHeight={$MAP_WIDTH}>
 		{#if config.scaleBarAvailable}
-			<Scale classes={schemeBlues[5]} {clusters} {scaleMin} {scaleMax} />
+			<Scale classes={colorScheme} {clusters} {scaleMin} {scaleMax} />
 		{/if}
 		{#if config.legendAvailable}
 			<Legend {legend} />
