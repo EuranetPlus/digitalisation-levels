@@ -1,12 +1,12 @@
 {
-  "heading": "Digitalizacija EU na državo",
-  "subheading": "Indeks digitalnega gospodarstva in družbe (podatki 2020)",
-  "legend1": "Podatkov ni na voljo",
-  "tooltip1": "DESI indeks",
+  "heading": "EU digitalizacija po državah",
+  "subheading": "Indeks digitalnega gospodarstva in družbe (podatki za leto 2022)",
+  "legend1": "Ni podatkov",
+  "tooltip1": "Indeks DESI",
   "textSourceDescription": "Vir",
   "textSource": "Evropska komisija",
   "textNoteDescription": "Opomba",
-  "textNote": "DESI zbira podatke, povezane s človeškim kapitalom, povezljivostjo, integracijo digitalne tehnologije in digitalnih javnih storitev.",
+  "textNote": "DESI zbira podatke v zvezi s človeškim kapitalom, povezljivostjo, integracijo digitalne tehnologije in digitalnimi javnimi storitvami.",
   "textDataAccess": "Dostop do podatkov",
   "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
 }

@@ -1,6 +1,6 @@
 {
-  "heading": "EU-digitalisering per land",
-  "subheading": "Index digitale economie en samenleving (gegevens 2020)",
+  "heading": "Digitalisering van de EU per land",
+  "subheading": "Index van de digitale economie en samenleving (gegevens uit 2022)",
   "legend1": "Geen gegevens beschikbaar",
   "tooltip1": "DESI-index",
   "textSourceDescription": "Bron",
@@ -8,5 +8,5 @@
   "textNoteDescription": "Opmerking",
   "textNote": "DESI verzamelt gegevens met betrekking tot menselijk kapitaal, connectiviteit, integratie van digitale technologie en digitale openbare diensten.",
   "textDataAccess": "Toegang tot de gegevens",
-  "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitization-performance"
+  "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
 }

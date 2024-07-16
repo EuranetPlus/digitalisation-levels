@@ -1,12 +1,12 @@
 {
   "heading": "ES digitalizācija katrā valstī",
-  "subheading": "Digitālās ekonomikas un sabiedrības indekss (2020. gada dati)",
+  "subheading": "Digitālās ekonomikas un sabiedrības indekss (2022. gada dati)",
   "legend1": "Nav pieejami dati",
   "tooltip1": "DESI indekss",
   "textSourceDescription": "Avots",
   "textSource": "Eiropas Komisija",
   "textNoteDescription": "Piezīme",
-  "textNote": "DESI apkopo datus, kas saistīti ar cilvēkkapitālu, savienojamību, digitālo tehnoloģiju integrāciju un digitālajiem publiskajiem pakalpojumiem.",
+  "textNote": "DESI apkopo datus, kas saistīti ar cilvēkkapitālu, savienojamību, digitālo tehnoloģiju integrāciju un digitālajiem sabiedriskajiem pakalpojumiem.",
   "textDataAccess": "Piekļūstiet datiem",
   "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
 }

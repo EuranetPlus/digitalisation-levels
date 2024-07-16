@@ -1,12 +1,12 @@
 {
-  "heading": "Cyfryzacja UE według kraju",
-  "subheading": "Indeks gospodarki cyfrowej i społeczeństwa cyfrowego (dane z 2020 r.)",
+  "heading": "Cyfryzacja UE według krajów",
+  "subheading": "Indeks gospodarki cyfrowej i społeczeństwa cyfrowego (dane za 2022 r.)",
   "legend1": "Brak dostępnych danych",
   "tooltip1": "Indeks DESI",
   "textSourceDescription": "Źródło",
   "textSource": "Komisja Europejska",
   "textNoteDescription": "Notatka",
-  "textNote": "DESI gromadzi dane dotyczące kapitału ludzkiego, łączności, integracji technologii cyfrowych i cyfrowych usług publicznych.",
+  "textNote": "DESI gromadzi dane dotyczące kapitału ludzkiego, łączności, integracji technologii cyfrowej i cyfrowych usług publicznych.",
   "textDataAccess": "Uzyskaj dostęp do danych",
-  "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
+  "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitization- Performance"
 }

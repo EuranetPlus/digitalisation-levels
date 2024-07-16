@@ -1,12 +1,12 @@
 {
   "heading": "Numérisation de l'UE par pays",
-  "subheading": "Indice de l'économie et de la société numériques (données 2020)",
+  "subheading": "Indice de l’économie et de la société numériques (données 2022)",
   "legend1": "Pas de données disponibles",
   "tooltip1": "Indice DESI",
-  "textSourceDescription": "La source",
+  "textSourceDescription": "Source",
   "textSource": "Commission européenne",
-  "textNoteDescription": "Noter",
-  "textNote": "DESI compile des données relatives au capital humain, à la connectivité, à l'intégration du numérique et aux services publics numériques.",
+  "textNoteDescription": "Note",
+  "textNote": "DESI compile des données liées au capital humain, à la connectivité, à l'intégration du numérique et aux services publics numériques.",
   "textDataAccess": "Accéder aux données",
   "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
 }

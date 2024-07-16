@@ -1,12 +1,12 @@
 {
   "heading": "Digitalización de la UE por país",
-  "subheading": "Índice de Economía y Sociedad Digital (datos de 2020)",
+  "subheading": "Índice de Economía y Sociedad Digital (datos de 2022)",
   "legend1": "Datos no disponibles",
-  "tooltip1": "Índice DESI",
+  "tooltip1": "índice DESI",
   "textSourceDescription": "Fuente",
   "textSource": "Comisión Europea",
   "textNoteDescription": "Nota",
-  "textNote": "DESI recopila datos relacionados con el capital humano, la conectividad, la integración de la tecnología digital y los servicios públicos digitales.",
+  "textNote": "DESI recopila datos relacionados con capital humano, conectividad, integración de tecnología digital y servicios públicos digitales.",
   "textDataAccess": "Accede a los datos",
   "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
 }

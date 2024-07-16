@@ -1,12 +1,12 @@
 {
   "heading": "EU-digitalisering pr. land",
-  "subheading": "Digital Economy and Society Index (2020-data)",
+  "subheading": "Digital Economy and Society Index (2022-data)",
   "legend1": "Ingen tilgængelig data",
   "tooltip1": "DESI indeks",
   "textSourceDescription": "Kilde",
   "textSource": "Europa-Kommissionen",
   "textNoteDescription": "Bemærk",
   "textNote": "DESI samler data relateret til menneskelig kapital, forbindelse, integration af digital teknologi og digitale offentlige tjenester.",
-  "textDataAccess": "Få adgang til dataene",
-  "linkDataAccess": "https://digital-strategy.ec.europa.eu/en/policies/countries-digitisation-performance"
+  "textDataAccess": "Få adgang til data",
+  "linkDataAccess": "https://digital-strategy.ec.europa.eu/da/policies/countries-digitisation-performance"
 }
